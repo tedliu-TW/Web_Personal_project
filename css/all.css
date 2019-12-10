@@ -1,0 +1,8 @@
+.wrap{
+width: 1024px;
+border: 1px solid;
+margin: 0 auto;
+}
+.header{
+    background-color: yellow;
+}
