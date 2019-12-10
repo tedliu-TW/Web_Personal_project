@@ -55,9 +55,28 @@ margin: 0 auto;
 .header{
     background-color: gray;
 }
+
 .nav li{
     float: left;
     margin-left: 10px;
+    
+}
+.nav a:hover{
+    background-color: #ef5c28;
+    color: #fff;
+}
+.nav li:hover >a{
+    background-color: #ef5c28;
+    color: #fff;
+}
+.btn{
+ 
+     
+}
+
+.Dropdown-List{
+
+
 }
 
 .clearfix{
