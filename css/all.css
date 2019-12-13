@@ -55,6 +55,10 @@ margin: 0 auto;
 .header{
     background-color: gray;
 }
+.nav{
+
+    
+}
 
 .nav li{
     float: left;
@@ -69,13 +73,17 @@ margin: 0 auto;
     background-color: #ef5c28;
     color: #fff;
 }
-.btn{
- 
+.btn:hover>.Dropdown-List{
+    overflow:visible;
+    height:30px
      
 }
 
 .Dropdown-List{
-
+display: block;
+height: 0;
+overflow: hidden;
+transition:height  .5s case;
 
 }
 
