@@ -49,47 +49,10 @@ table {
 /* 上面是CSS reset*/
 
 .wrap{
-
-margin: 0 auto;
+ width: 1096px;
+ border: 1px solid;
+ margin: 0 auto;
 }
 .header{
-    background-color: gray;
-}
-.nav{
-
-    
-}
-
-.nav li{
-    float: left;
-    margin-left: 10px;
-    
-}
-.nav a:hover{
-    background-color: #ef5c28;
-    color: #fff;
-}
-.nav li:hover >a{
-    background-color: #ef5c28;
-    color: #fff;
-}
-.btn:hover>.Dropdown-List{
-    overflow:visible;
-    height:30px
-     
-}
-
-.Dropdown-List{
-display: block;
-height: 0;
-overflow: hidden;
-transition:height  .5s case;
-
-}
-
-.clearfix{
-clear: both;
-}
-.nav1{
-    float: right;
+	
 }
