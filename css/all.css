@@ -47,12 +47,8 @@ table {
 	border-spacing: 0;
 }
 /* 上面是CSS reset*/
-
 .wrap{
- width: 1096px;
- border: 1px solid;
  margin: 0 auto;
-}
-.header{
-	
+ width: 1024px;
+ border: 1px solid;
 }
