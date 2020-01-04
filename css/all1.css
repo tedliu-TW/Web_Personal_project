@@ -52,26 +52,30 @@ table {
  width: 1024px;
  border: 1px solid;
 }
-
-.header a{
-	background: url("/img/header_logo.jpg") no-repeat;
-	width: 200px;
-	height: 68px;
-	display: block;
-	text-indent: 101%;
-	overflow: hidden;
-	white-space: nowrap;
-
+.header img{
+	height: 36px;
 }
-.menu li{
- float:right;
+
+
+.menu {
+	float: right;
 }
-.menu ul{
+.menu ul {
+	float: right;
 	list-style: none;
 }
-
-
-
-.clearfix{
+.menu li {
+	float: left;
+}
+.menu a {
+	text-decoration: none;
+	color: #00cc99;
+	display: block;
+	padding: 10px;
+}
+.menu li a:hover {
+	border-bottom: 3px solid #00cc99;
+}
+.clear {
 	clear: both;
 }
