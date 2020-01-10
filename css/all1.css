@@ -79,11 +79,13 @@ table {
 .clear {
 	clear: both;
 }
-.section{
+.footer1{
+	width: 50%;
 	float: left;
-
+	background-color: gray;
 }
-.aside{
-	float: right;
-
+.footer2{
+	background-color: yellow;
 }
+
+
