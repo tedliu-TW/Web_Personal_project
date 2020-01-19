@@ -89,10 +89,18 @@ table {
   float: left;
   padding: 15px;
 }
-.under2{
+.under1{
 	float: left;
 }
+.under2{
+	float: left;
+	margin-left: 150px;
+}
+.under3{
+	float: left;
+	margin-left:60px;
 
+}
 
 
 
