@@ -82,10 +82,19 @@ table {
 .footer1{
 	width: 50%;
 	float: left;
-	background-color: gray;
+
 }
-.footer2{
-	background-color: yellow;
+
+.under li{
+  float: left;
+  padding: 15px;
 }
+.under2{
+	float: left;
+}
+
+
+
+
 
 
