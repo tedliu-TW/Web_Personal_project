@@ -89,7 +89,9 @@ table {
   float: left;
   padding: 15px;
 }
-
+.clear {
+	clear: both;
+}
 
 
 .under1{
