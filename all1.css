@@ -85,22 +85,49 @@ table {
 
 }
 
-.under li{
+.img li{
   float: left;
   padding: 15px;
 }
-.under1{
-	float: left;
-}
-.under2{
-	float: left;
-	margin-left: 150px;
-}
-.under3{
-	float: left;
-	margin-left:60px;
 
-}
+
+
+.under1{
+	width:400px;
+	height:100px;
+	  float: left;
+	position:relative;
+  }
+  /* absolute的設定需要父元件也有position */
+  .under1 p{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	
+  }
+  /* 如果發現元件有重複的樣式 可以考慮歸同一類，減少重複css */
+  .listBox{
+	width:80px;
+	  float: left;
+	padding-left:10px;
+	border-left:1px solid #343434;
+  }
+  .listBox ul{
+	width:100%;
+  }
+  .listBox li{
+	padding-top:2px;
+	padding-bottom:2px;
+	list-style:none;
+  }
+  /* 這邊就只要針對不同之處再進行調整 */
+  .under2{
+	  margin-left:50px;
+  }
+  .under3{
+	  margin-left:60px;
+  }
+  /* 建議日後盡量少用標籤本身(ex:ul li)去設定，除非非常確定此標籤(ex:ul li)都要這個樣式 */
 
 
 
